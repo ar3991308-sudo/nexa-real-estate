@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Properties for Sale & Rent in Lahore | Nexa Estates</title><meta name="description" content="Filter houses, apartments, villas and penthouses in DHA, Gulberg, Bahria Town, Model Town and Johar Town.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap">
+<link rel="stylesheet" href="assets/css/style.css"><link rel="stylesheet" href="assets/css/components.css"><link rel="stylesheet" href="assets/css/responsive.css">
+</head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header"><div class="container nav">
+<a class="logo" href="index.html">Nexa<span>Estates</span></a>
+<button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Toggle menu"><span></span></button>
+<nav id="menu" class="menu" aria-label="Main"><a href="index.html">Home</a><a href="properties.html" aria-current="page">Properties</a><a href="contact.html">Contact</a><a class="btn btn-accent btn-sm" href="properties.html">Find a Property</a></nav>
+</div></header>
+<main id="main">
+
+<section class="page-hero"><div class="container"><p class="eyebrow">Listings</p><h1>Explore Properties in Lahore</h1><p class="lead">Browse verified homes for sale and rent. Filter by area, budget and size to find your match.</p></div></section>
+<section class="section"><div class="container">
+<form id="filters" class="filters" aria-label="Property filters">
+<div class="field"><label for="f-location">Location</label><select id="f-location" name="location"><option value="">All locations</option><option>DHA Lahore</option><option>Gulberg</option><option>Bahria Town Lahore</option><option>Model Town</option><option>Johar Town</option></select></div>
+<div class="field"><label for="f-type">Property Type</label><select id="f-type" name="type"><option value="">All types</option><option>House</option><option>Apartment</option><option>Villa</option><option>Penthouse</option></select></div>
+<div class="field"><label for="f-purpose">Purpose</label><select id="f-purpose" name="purpose"><option value="">Buy or Rent</option><option value="buy">Buy</option><option value="rent">Rent</option></select></div>
+<div class="field"><label for="f-min">Min Price (PKR)</label><input id="f-min" name="min" type="number" min="0" step="10000" placeholder="e.g. 50000"></div>
+<div class="field"><label for="f-max">Max Price (PKR)</label><input id="f-max" name="max" type="number" min="0" step="10000" placeholder="e.g. 50000000"></div>
+<div class="field"><label for="f-beds">Bedrooms</label><select id="f-beds" name="beds"><option value="">Any</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option><option value="5">5+</option></select></div>
+<div class="field"><label for="f-baths">Bathrooms</label><select id="f-baths" name="baths"><option value="">Any</option><option value="1">1+</option><option value="2">2+</option><option value="3">3+</option><option value="4">4+</option></select></div>
+<div class="filter-actions"><button class="btn btn-dark" type="submit">Apply Filters</button><button class="btn btn-outline" type="reset">Reset Filters</button></div>
+</form>
+<p id="count" class="count" role="status"></p>
+<div class="grid" id="grid" aria-live="polite"></div>
+<div id="empty" class="empty" hidden><h2>No properties match your current filters.</h2><p>Try widening your budget or choosing another area.</p><button class="btn btn-dark" type="button" data-clear>Clear Filters</button></div>
+</div></section>
+
+</main>
+<footer class="site-footer"><div class="container footer-grid">
+<div><a class="logo" href="index.html">Nexa<span>Estates</span></a><p>Lahore's boutique real estate advisory. Verified homes, honest advice, end-to-end support.</p></div>
+<div><h3>Navigate</h3><ul><li><a href="index.html">Home</a></li><li><a href="properties.html">Properties</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div><h3>Popular Areas</h3><ul><li><a href="properties.html?location=DHA+Lahore">DHA Lahore</a></li><li><a href="properties.html?location=Gulberg">Gulberg</a></li><li><a href="properties.html?location=Bahria+Town+Lahore">Bahria Town Lahore</a></li><li><a href="properties.html?location=Model+Town">Model Town</a></li><li><a href="properties.html?location=Johar+Town">Johar Town</a></li></ul></div>
+<div><h3>Contact</h3><ul><li>Nexa Tower, MM Alam Road, Gulberg III, Lahore</li><li><a href="tel:+924235550142">+92 42 3555 0142</a></li><li><a href="https://wa.me/923001234567" target="_blank" rel="noopener">WhatsApp: +92 300 1234567</a></li><li><a href="mailto:hello@nexaestates.pk">hello@nexaestates.pk</a></li></ul>
+<div class="social"><a href="#" aria-label="Facebook">Fb</a><a href="#" aria-label="Instagram">Ig</a><a href="#" aria-label="LinkedIn">In</a></div></div>
+</div><p class="copy container">&copy; 2026 Nexa Estates (fictional agency). All rights reserved.</p></footer>
+<a class="wa-float" href="https://wa.me/923001234567?text=Hello%20Nexa%20Estates%2C%20I%27m%20looking%20for%20a%20property%20in%20Lahore." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><img src="assets/icons/whatsapp.svg" alt="" width="30" height="30"></a>
+<script src="assets/js/main.js"></script><script src="assets/js/properties.js"></script><script src="assets/js/filters.js"></script>
+</body></html>

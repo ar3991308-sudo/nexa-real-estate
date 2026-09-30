@@ -1,0 +1,13 @@
+@media(max-width:1024px){.grid,.features{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:repeat(3,1fr)}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:860px){
+.nav-toggle{display:grid;place-items:center;width:44px;height:44px;background:none;border:1px solid #444;border-radius:10px;cursor:pointer}
+.nav-toggle span,.nav-toggle span::before{display:block;width:20px;height:2px;background:#fff;position:relative;transition:.2s}
+.nav-toggle span::before{content:"";position:absolute;top:6px}
+.menu{position:absolute;top:72px;left:0;right:0;background:var(--ink);flex-direction:column;align-items:stretch;padding:1rem 4%;gap:1rem;display:none;border-top:1px solid #333}
+.menu.open{display:flex}
+.hero-grid,.about,.contact-grid{grid-template-columns:1fr}.stats{grid-template-columns:repeat(2,1fr)}
+.quick{grid-template-columns:1fr 1fr}}
+@media(max-width:600px){
+.grid,.features,.filters,.footer-grid,.quick{grid-template-columns:1fr}
+.btn-row .btn,.filter-actions .btn{flex:1 1 100%}
+.hero-visual figcaption{font-size:.75rem}}
